@@ -1,0 +1,429 @@
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  
+  .logout{
+    background-color:#0d2836 ;
+    border:none; 
+    color: white;
+    font-size: 15px;
+  }
+  
+  .navbar .nav_right .perfil ul form button:hover{
+    cursor: pointer;
+  }
+  
+  .sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    color:white;
+  }
+  
+  
+  
+  
+  /*----------------------------NAVBAR------------------------------------*/
+  
+  .restart{
+    color: white;
+    margin-left: 60px;
+  }
+  .nav_left{
+    color: white;
+  }
+  
+  .nav_right{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  
+  .navbar{
+    z-index: 1000;
+    top: 0;
+    grid-area: nav;
+    height: 4.5rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    background-color:  #0d2836;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  
+  .perfil{
+    color:white;
+    text-decoration: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .perfil_item{
+    margin: 4px 0px;
+    padding: 4px 0px;
+  }
+  
+  .perfil_item:hover{
+    padding-left: 5px;
+  }
+  /*----------------------------END NAVBAR------------------------------------*/
+  
+  /*---------------------------SIDEBAR------------------------------------*/
+  .sidebar{
+    margin-top: 4.5rem;
+    position: absolute;
+    width: 200px;
+    background:white;
+    transition: all .5s ease;
+    border:1px solid black;
+  }
+  
+  .sidebar ul li a{
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    font-size:20px;
+    padding-left: 40px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  
+  
+  .sidebar ul li div a{
+    display: block;
+    line-height: 40px;
+    font-size:18px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: none;
+    color: black;
+    width: 100%;
+    background-color: aliceblue;
+  }
+  
+  
+  
+  
+  
+  
+  .sidebar ul li a:hover{
+    padding-left: 50px;
+    background-color: #175574;
+  }
+  
+  .sidebar ul li div a:hover{
+    padding-left: 50px;
+    background-color: #3ca4d8;
+  }
+  
+
+  /*---------------------------END SIEDBAR------------------------------------*/
+  
+  
+  /*----------------------------SECTION---------------------------------------*/
+  
+  
+  section{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .container{
+    width: 800px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 20px
+  }
+
+  section .principal{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a5275;
+    color: white;
+    margin: 30px;
+  }
+
+  section .principal span{
+    padding: 4px;
+  }
+  section .fichatecnica{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin-bottom: 20px;
+  }
+
+  section .fichatecnica .header{
+    font-size: xx-large;
+    margin-bottom: 10px;
+  }
+    section .container .tarjeta{
+    margin: 20px 40px;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+section .container .tarjeta .fondo{
+    border-top: 0px;
+    width: 140px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin:15px 10px;
+}
+
+section .container .tarjeta .fondo .titulo{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+
+section .container .tarjeta .info, section .fichatecnica .info{
+  display: flex;
+  flex-direction: column;
+}
+
+section .container .tarjeta .info  .infolibro {
+ display: flex;
+ flex-direction: row;
+ margin: 15px 20px;
+}
+
+section .fichatecnica .info .infolibro{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+section .container .tarjeta .info  .infolibro .busqueda, section .fichatecnica .info .infolibro .busqueda{
+    font: 14px;
+    margin-left: 5px;
+}
+
+section .container .sinopsis{
+  width: 600px;
+}
+  /*---------------------------END SECTION------------------------------------*/
+  
+  .infor{
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid black;
+  }
+  
+  
+  
+  .yokse, .company{
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  }
+  .socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .fa-circle-play{
+  font-size:xx-large;
+  }
+  
+  
+  .fa-twitter, .fa-facebook{
+  font-size: 30px;
+  margin: 10px;
+  }
+  
+  .fa-instagram{
+  font-size: 34px;
+  
+  }
+  
+  
+  .fa-circle-play{
+  font-size:xx-large;
+  }
+  
+  
+  .footer{
+  margin-top: auto;
+  bottom: 0;
+  background-color: #042331;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  }
+  
+  
+  .foot_element{
+  margin:3px 0;
+  }
+  
+  
+  .foot_element{
+  margin:3px 0;
+  }
+  
+  
+  @media (max-width:1250px){
+
+    section .container, section .fichatecnica, section .principal{
+        width: 600px;
+    }
+
+    section .container .sinopsis{
+      width: 350px;
+    }
+  }
+  
+  
+  @media (max-width:1000px){
+
+    section .principal{
+        justify-content: center;
+    }
+  
+    .sidebar{
+      margin-top: 4.5rem;
+      margin-left: -280px;
+      width: 200px;
+      background:white;
+      transition: all .5s ease;
+      border:1px solid black;
+    }
+  
+  #check{
+    display: none;
+  }
+  
+  .sidebar ul li a{
+    transition: .4s ;
+  }
+  
+  
+  .sidebar ul li div a{
+    transition: .4s ;
+  }
+  
+  label #btn, label #cancel{
+    cursor: pointer;
+    background-color: #042331;
+    border-radius: 3px;
+  }
+  
+  label #btn{
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+  }
+  
+  label #cancel{
+    position: fixed;
+    z-index: 2000;
+    margin-top: 4.5rem;
+    z-index: 500;
+    margin-left: -340px;
+    top: 9px;
+    font-size: 25px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s;
+    border-radius: 3px;
+    left: -195px;
+  }
+  
+  
+  #check:checked ~ .sidebar{
+    margin-left:0;
+  }
+  
+  #check:checked ~ label #cancel{
+    margin-left:350px;
+  }
+    
+  #check:checked ~ label #btn{
+    left:250px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .footer{
+    margin-bottom: -52px;
+    height: 100%;
+    padding-top: 4px;
+    flex-direction: column;
+  }
+  
+  .yokse, .company, .socialmedia{
+    margin-top: 10px;
+  }
+  
+  .socialmedia{
+    margin-bottom: 10px;
+  }
+  }
+  
+  
+  
+  
+  

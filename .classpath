@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/basicplayer3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jflac-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jl1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jmactritonusspi1.74.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jml-1.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/jspeex0.9.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/kj_dsp1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/mp3spi1.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/mysql-connector-java-8.0.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/substance.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/tritonus_share.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/vorbisspi1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pablo/Documents/apache-tomcat-9.0.71/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

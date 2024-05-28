@@ -1,0 +1,437 @@
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  #search{
+    height: 4.5rem;
+    width: 400px;
+    height: 2rem;
+  }
+  
+#checkperfil{
+    display: none;
+  }
+  
+  
+  .logout{
+	border:none; 
+	background-color:white;
+	color: #063146;;
+}
+
+.navbar .nav_right .perfil form button:hover{
+	cursor:pointer;
+}
+  .sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    color:white;
+  }
+    #checkperfil:checked ~ .perfil ul .perfil_item{
+    display: block;
+  }
+
+  #checkperfil:checked ~ .perfil{
+  border: 1px solid black;
+  border-top: none;
+  }
+
+  
+  
+  
+  /*----------------------------NAVBAR------------------------------------*/
+  
+  .restart{
+    color: white;
+    margin-left: 60px;
+  }
+  .nav_left{
+    color: white;
+  }
+  
+  .nav_right{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+    .nav_element{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 15px;
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+    .nav_element:hover{
+    background-color: aquamarine;
+    padding: 5px;
+  }
+  
+  .navbar{
+    z-index: 1000;
+    top: 0;
+    grid-area: nav;
+    height: 4.5rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    background-color:  #0d2836;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  
+  .perfil{
+    display: none;
+    top: 4.5rem;
+    position: fixed;
+    width: 150px;
+    background:white;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .perfil_item{
+    margin: 4px 0px;
+    padding: 4px 0px;
+    display: none;
+  }
+  
+  .perfil_item:hover{
+    padding-left: 5px;
+  }
+  .item{
+    height: 20px;
+    color: #063146;
+    text-decoration: none;
+  }
+  /*----------------------------END NAVBAR------------------------------------*/
+  
+  /*---------------------------SIDEBAR------------------------------------*/
+  .sidebar{
+    margin-top: 4.5rem;
+    position: fixed;
+    width: 280px;
+    margin-left: -280px;
+    background:white;
+    transition: all .5s ease;
+    border:1px solid black;
+  }
+
+  .sidebar ul form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar ul form button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size:20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 0;
+  }
+  
+  .sidebar ul li a{
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    font-size:20px;
+    padding-left: 60px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  
+
+  
+  .sidebar ul li a:hover {
+    padding-left: 70px;
+    background-color: #175574;
+  }
+
+  .sidebar ul form button:hover{
+    cursor: pointer;
+    padding-left: 20px;
+    background-color: #175574;
+  }
+  
+  
+  .header{
+    width: 600px;
+  }
+  
+  /*---------------------------END SIEDBAR------------------------------------*/
+  
+  
+  /*----------------------------SECTION---------------------------------------*/
+
+  
+  section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .header{
+    width: 1250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+  }
+
+  section .container{
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1250px;
+  }
+
+  section .container .tarjeta{
+    margin: 20px 30px;
+    width: 250px;
+    height: 300px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    
+}
+
+section .container .tarjeta .fondo{
+    border-top: 0px;
+    width: 140px;
+    min-height: 180px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+section .container .tarjeta .fondo:hover{
+  cursor: pointer;
+}
+
+section .container .tarjeta .info p{
+    font: 14px;
+    margin: 4px;
+}
+
+  
+  /*---------------------------END SECTION------------------------------------*/
+  
+  .infor{
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid black;
+  }
+  
+  
+  
+  .yokse, .company{
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  }
+  .socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .fa-circle-play{
+  font-size:xx-large;
+  }
+  
+  
+  .fa-twitter, .fa-facebook{
+  font-size: 30px;
+  margin: 10px;
+  }
+  
+  .fa-instagram{
+  font-size: 34px;
+  
+  }
+  
+  
+  .fa-circle-play{
+  font-size:xx-large;
+  }
+  
+  
+  .footer{
+  margin-top: auto;
+  bottom: 0;
+  background-color: #042331;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  }
+  
+  
+  .foot_element{
+  margin:3px 0;
+  }
+  
+  
+  
+
+  @media (max-width:1300px){
+
+    section .container, section .header{
+        width: 950px;
+    }
+  }
+  @media (max-width:1000px){
+
+    section .container, section .header{
+        width: 700px;
+    }
+  }
+
+  @media (max-width:750px){
+
+    section .container, section .header{
+        width: 300px;
+    }
+  }
+  
+  @media (max-width:700px){
+
+    .navbar .restart, .navbar .nav_right{
+        display: none;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+  
+    .sidebar{
+      margin-top: 4.5rem;
+      margin-left: -280px;
+      width: 200px;
+      background:white;
+      transition: all .5s ease;
+      border:1px solid black;
+    }
+  
+  #check{
+    display: none;
+  }
+  
+  .sidebar ul li a, .sidebar ul form button{
+    transition: .4s ;
+  }
+  
+  
+  label #btn, label #cancel{
+    cursor: pointer;
+    background-color: #042331;
+    border-radius: 3px;
+  }
+  
+  label #btn{
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+  }
+  
+  label #cancel{
+    position: fixed;
+    z-index: 2000;
+    margin-top: 4.5rem;
+    z-index: 500;
+    margin-left: -340px;
+    top: 9px;
+    font-size: 25px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s;
+    border-radius: 3px;
+    left: -195px;
+  }
+  
+  
+  #check:checked ~ .sidebar{
+    margin-left:0;
+  }
+  
+  #check:checked ~ label #cancel{
+    margin-left:350px;
+  }
+    
+  #check:checked ~ label #btn{
+    left:250px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .footer{
+    margin-bottom: -52px;
+    height: 100%;
+    padding-top: 4px;
+    flex-direction: column;
+  }
+  
+  .yokse, .company, .socialmedia{
+    margin-top: 10px;
+  }
+  
+  .socialmedia{
+    margin-bottom: 10px;
+  }
+  }
+  
+  
+  
+  
